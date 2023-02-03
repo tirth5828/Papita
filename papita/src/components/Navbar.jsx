@@ -20,6 +20,18 @@ const Navbar = () => {
           <FcSearch className="mr-1" />
         </label>
       </div>
+      <div className="flex gap-4">
+        <Link to="/unanswered" className="my-auto">
+          <div className="text-white py-1 px-3 rounded cursor-pointer bg-cyan-900 opacity-80">
+            I need help
+          </div>
+        </Link>
+        <Link to="/login" className="my-auto">
+          <div className="text-white py-1 px-3 rounded cursor-pointer bg-cyan-900 opacity-80">
+            I'm a guider
+          </div>
+        </Link>
+      </div>
       {/* Profile */}
       <div className="flex flex-col justify-center mr-8">
         <div>Made with ❤ at Hack This Fall 3.0</div>
