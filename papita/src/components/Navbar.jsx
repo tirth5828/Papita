@@ -2,7 +2,7 @@ import React from "react";
 import { FcSearch } from "react-icons/fc";
 const Navbar = () => {
   return (
-    <header className="w-full p-5 fixed flex justify-between bg-blue-400">
+    <header className="w-full p-5 sticky top-0 flex justify-between bg-blue-400">
       <div className="my-auto">PAPITA</div>
       <div>
         <label className="flex items-center justify-center border border-blue-200 rounded-lg p-1">
